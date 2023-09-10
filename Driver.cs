@@ -64,7 +64,7 @@ namespace Testing
                 "Chrome PDF Viewer"
                                                                                    });
 
-                Instance = new ChromeDriver(@"C:\Drivers\", options);
+                Instance = new ChromeDriver(@"C:\Drivers1\Chrome", options);
                 Instance.Manage().Window.Maximize();
 
             }
